@@ -1,5 +1,15 @@
 ﻿namespace ProblemsSolving.Level_One
 {
+    /*
+     * #1
+     * DESCRIPTION:
+     * 
+     * This kata is about multiplying a given number 
+     * by eightif it is an even number and by nine otherwise.
+     * 
+     * link : https://www.codewars.com/kata/583710ccaa6717322c000105
+     * 
+     */
     public class SimpleMultiplication
     {
         public int Multiply(int a)
