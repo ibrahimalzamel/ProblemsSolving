@@ -73,9 +73,10 @@ ReduceButGrow reduceButGrow = new ReduceButGrow();
 int sum = reduceButGrow.Grow([1, 2, 3, 4]);
 Console.WriteLine(sum);
 
-//#13
-
 //#14
+RemoveFirstAndLastCharacter removeFirstAndLastCharacter = new RemoveFirstAndLastCharacter();
+string str1 = removeFirstAndLastCharacter.Remove_char("ibrahim");
+Console.WriteLine("#14 " + str1);
 
 //#15
 
