@@ -113,15 +113,46 @@ StringUppercase stringUppercase = new StringUppercase();
 bool isUpperCase = stringUppercase.IsUpperCase("HELLO");
 Console.WriteLine("#21 "+isUpperCase);
 
-
 //#22
+BasicMathematicalOperations basicMathematicalOperations = new BasicMathematicalOperations();
+double numberResult = basicMathematicalOperations.basicOp('*', 5, 5);
+Console.WriteLine("#22 " + numberResult);
 
 //#23
+CountingSheep countingSheep = new CountingSheep();
+int sheeps =  countingSheep.CountSheeps([true,  true,  true,  false,
+     true,  true,  true,  true ,
+     true,  false, true,  false,
+     true,  false, false, true ,
+     true,  true,  true,  true ,
+     false, false, true,  true]);
+Console.WriteLine("#23 " + sheeps);
+
 //#24
+SquareSum squareSum = new SquareSum();
+int sumSquare = squareSum.squareSum([1, 2, 2]);
+Console.WriteLine("#24 " + sumSquare);
+
 //#25
+CountOddNumbersBelow countOddNumbersBelow = new CountOddNumbersBelow();
+ulong oddNumberCount = countOddNumbersBelow.OddCount(15023);
+Console.WriteLine("#25 " + oddNumberCount);
+
+
 //#26
+
+
 //#27
+
+
 //#28
+
+
 //#29
+
+
 //#30
+
+
 //#31
+
