@@ -1,5 +1,4 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using ProblemsSolving;
 using ProblemsSolving.Level_One;
 
 //#1
@@ -66,12 +65,12 @@ Console.WriteLine("#11 "+"Max:" + max + " Mini:" + mini);
 //#12
 KeepHydrated keepHydrated  = new KeepHydrated();
 int litre = keepHydrated.Litres(11.8);
-Console.WriteLine(litre);
+Console.WriteLine("#12 " + litre);
 
 //#13
 ReduceButGrow reduceButGrow = new ReduceButGrow();
 int sum = reduceButGrow.Grow([1, 2, 3, 4]);
-Console.WriteLine(sum);
+Console.WriteLine("#13 " + sum);
 
 //#14
 RemoveFirstAndLastCharacter removeFirstAndLastCharacter = new RemoveFirstAndLastCharacter();
@@ -79,18 +78,41 @@ string str1 = removeFirstAndLastCharacter.Remove_char("ibrahim");
 Console.WriteLine("#14 " + str1);
 
 //#15
+StringRepeat stringRepeat = new StringRepeat();
+string res = stringRepeat.RepeatStr(5, "ibrahim");
+Console.WriteLine("#15 " + res);
 
 //#16
+RemoveStringSpaces removeStringSpaces = new RemoveStringSpaces();
+string removeSpaces = removeStringSpaces.NoSpace("ibra him alz am el 19 96");
+Console.WriteLine("#16 " + removeSpaces);
 
 //#17
+AllStarCodeChallenge allStarCodeChallenge = new AllStarCodeChallenge();
+int strCountChar = allStarCodeChallenge.StrCount("ibrahim elzamil", 'i');
+Console.WriteLine("#17 "+strCountChar);
 
 //#18
+BeginnerSeries beginnerSeries = new BeginnerSeries();
+int milliSeconds = beginnerSeries.Past(1,30,46);
+Console.WriteLine("#18 " + milliSeconds);
+
 
 //#19
+AlternatingCase alternatingCase = new AlternatingCase();
+string strCase = alternatingCase.ToAlternatingCase("IbRaHiM ALzaMEl 1996");
+Console.WriteLine("#19 " + strCase);
 
 //#20
+WillYouMakeIt willYouMakeIt = new WillYouMakeIt();
+bool willYouMake = willYouMakeIt.ZeroFuel(100, 50, 2);
+Console.WriteLine("#20 "+willYouMake);
 
 //#21
+StringUppercase stringUppercase = new StringUppercase();
+bool isUpperCase = stringUppercase.IsUpperCase("HELLO");
+Console.WriteLine("#21 "+isUpperCase);
+
 
 //#22
 

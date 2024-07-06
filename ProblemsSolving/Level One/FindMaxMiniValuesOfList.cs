@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ProblemsSolving.Level_One
+﻿namespace ProblemsSolving.Level_One
 {
     /*
     * #11
