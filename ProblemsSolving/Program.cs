@@ -140,16 +140,20 @@ Console.WriteLine("#25 " + oddNumberCount);
 
 
 //#26
-
+CalculateAverage calculateAverage = new CalculateAverage();
+double average = calculateAverage.FindAverage([1,5,10,8,6,4,3,2,3,4]);
+Console.WriteLine("#26 " + average);
 
 //#27
-
+ReturnNegative returnNegative = new ReturnNegative();
+int negative = returnNegative.MakeNegative(40);
+Console.WriteLine("#27 " + negative);
 
 //#28
-
+SwapValues swapValues = new SwapValues([1,2]);   
 
 //#29
-
+DrinkAbout drinkAbout = new DrinkAbout();
 
 //#30
 
